@@ -21,15 +21,30 @@ h2 {
 }
 h3 {
 	font-size: 1.3em;
+	margin-left: 1em;
 }
 h4 {
 	font-size: 1.2em;
+	margin-left: 2em;
 }
 h5 {
 	font-size: 1.1em;
 }
 h6 {
 	font-size: 1em;
+}
+
+h3, h3 + section {
+	margin-left: 1em;
+}
+h4, h4 + section {
+	margin-left: 2em;
+}
+h5, h5 + section, h5 + pre {
+	margin-left: 3em;
+}
+h6, h6 + section {
+	margin-left: 4em;
 }
 
 ul, ol {
@@ -56,5 +71,9 @@ pre {
 
 pre span.res {
 	color: #333399; 
+	font-weight: bold;
+}
+
+b {
 	font-weight: bold;
 }
